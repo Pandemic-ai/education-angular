@@ -12,6 +12,7 @@ import { AdminComponent } from "./admin/admin.component";
 import { NavAdminComponent } from "./nav-admin/nav-admin.component";
 import { HomeComponent } from './home/home.component';
 import { TeacherCourseDetailsComponent } from './course/teacher-course-details/teacher-course-details.component';
+import { StudentCourseDetailsComponent } from './course/student-course-details/student-course-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TeacherCourseDetailsComponent } from './course/teacher-course-details/t
     AdminComponent,
     NavAdminComponent,
     HomeComponent,
-    TeacherCourseDetailsComponent
+    TeacherCourseDetailsComponent,
+    StudentCourseDetailsComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
