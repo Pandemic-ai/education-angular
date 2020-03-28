@@ -72,7 +72,7 @@ nav {
 a#logo {
 	width:150px;
 	height:36px;
-	background:url(../img/logo.png) no-repeat 0 0;
+	/*background:url(../img/logo.png) no-repeat 0 0;*/
 	text-indent:-9999px;
 	display:block;
 }
@@ -119,11 +119,11 @@ a#logo {
 	background:#1abc9c url(../img/pattern_2.png) repeat center top;
 }
 
-#main_content{
+#main_content, #main_content2{
 	padding:60px 0;
 	background-color:#fff;
 }
-#main_content_gray{
+#main_content_gray, #main_content_gray2{
 	padding:60px 0 30px 0;
 	background-color:#fafafa;
 }
@@ -196,13 +196,14 @@ h1 {
 	font-size:20px;
 	font-weight:700;
 }
-#main_content  h2.plan-title  {
+#main_content  h2.plan-title, #main_content2  h2.plan-title  {
 	font-size:18px;
 	font-weight:600;
 }
 #sub-header-features p{
 	font-size:15px;
 	color:#75807d;
+	font-weight:600;
 	font-weight:600;
 }
 #sub-header-features-2 p{
@@ -231,7 +232,7 @@ h1 {
 	font-weight:normal;
 	letter-spacing:5px;
 }
-#main-features h2, #main-features_green h2 {
+#main-features h2, #main-features_green h2, #main-features2 h2, #main-features_green2 h2 {
 	text-transform:uppercase;
 	color:#fff;
 	font-size:48px;
@@ -240,16 +241,16 @@ h1 {
 	margin-top:0;
 	padding-top:0;
 }
-#main_content .post h2{
+#main_content .post h2, #main_content2 .post h2{
 	font-size:26px;
 	line-height:28px;
 }
-#main-features p.lead, #main-features_green p.lead{
+#main-features p.lead, #main-features_green p.lead, #main-features2 p.lead, #main-features_green2 p.lead{
 	color:#fff;
 	font-size:18px;
 	margin-bottom:60px;
 }
-#main-features h3, #main-features_green h3 {
+#main-features h3, #main-features_green h3,#main-features2 h3, #main-features2_green h3 {
 	color:#fff;
 	font-size:18px;
 	font-weight:700;
@@ -289,10 +290,10 @@ ul.latest_news h5{
 
 /* #Site Footer */
 footer {
-	background:#1c1c1c url(../img/logo_footer.png) no-repeat center 60px;
+	background: black no-repeat center 50px;
 	color:#fff;
 	width:100%;
-	padding-top:150px;
+	padding-top:120px;
 	text-align:center;
 	font-size:13px;
 }
@@ -3223,7 +3224,7 @@ ul.floated li {
 	}
 	.plan-tall {margin-right:0;}
 
-#main_content .post h2{
+#main_content .post h2, #main_content2 .post h2{
 	font-size:20px;
 	line-height:22px;
 }
