@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ad5580-a9e6-478d-bb6d-94f91356b261" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/teacher/teacher.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/teacher/teacher.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/teacher/teacher.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="480">
+              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -33,7 +30,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -53,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/teacher/teacher.component.html" />
         <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/teacher/teacher.component.html" />
       </list>
     </option>
   </component>
@@ -87,6 +84,13 @@
               <item name="education-angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585402206091</updated>
-      <workItem from="1585402207647" duration="849000" />
+      <workItem from="1585402207647" duration="987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="849000" />
+    <option name="totallyTimeSpent" value="987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -168,12 +172,12 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24781659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24781659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30512017" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30512017" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -191,13 +195,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/teacher/teacher.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -208,6 +205,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/teacher/teacher.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
         </state>
       </provider>
     </entry>
