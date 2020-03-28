@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ad5580-a9e6-478d-bb6d-94f91356b261" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/teacher/teacher.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/teacher/teacher.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -18,21 +17,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/teacher/teacher.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="342" column="26" lean-forward="true" selection-start-line="342" selection-start-column="26" selection-end-line="342" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/fontello/css/fontello.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -58,13 +69,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
               <caret line="2371" column="23" lean-forward="true" selection-start-line="2371" selection-start-column="23" selection-end-line="2371" selection-end-column="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/student/student.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -85,28 +101,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>validate.js</find>
-      <find>img/</find>
       <find>/images/icon_write.png</find>
       <find>/images/i</find>
       <find>/fonts/</find>
       <find>fonts/gl</find>
       <find>../fonts/glyphicons-halflings-regular.eot</find>
       <find>../fonts/glyphicons</find>
+      <find>img/</find>
     </findStrings>
     <replaceStrings>
       <replace>assets/img/</replace>
@@ -125,10 +131,11 @@
         <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/angular.json" />
-        <option value="$PROJECT_DIR$/src/app/teacher/teacher.component.html" />
         <option value="$PROJECT_DIR$/src/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/assets/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/src/app/nav/nav.component.html" />
+        <option value="$PROJECT_DIR$/src/app/teacher/teacher.component.html" />
       </list>
     </option>
   </component>
@@ -161,6 +168,27 @@
               <item name="education-angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="education-angular" type="b2602c69:ProjectViewProjectNode" />
@@ -248,12 +276,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585402206091</updated>
-      <workItem from="1585402207647" duration="3438000" />
+      <workItem from="1585402207647" duration="3570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3438000" />
+    <option name="totallyTimeSpent" value="3570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -266,7 +294,7 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.42842215" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.12852664" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
@@ -309,16 +337,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/check_radio/skins/square/red.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/teacher/teacher.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="342" column="26" lean-forward="true" selection-start-line="342" selection-start-column="26" selection-end-line="342" selection-end-column="26" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -351,6 +369,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="2371" column="23" lean-forward="true" selection-start-line="2371" selection-start-column="23" selection-end-line="2371" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/student/student.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#nav#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/teacher/teacher.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
