@@ -5,8 +5,9 @@ import {TeacherComponent} from './teacher/teacher.component';
 
 
 const routes: Routes = [
-  { path: '/teacher', component: TeacherComponent },
-  { path: '/student', component: StudentComponent }
+  { path: '', component: TeacherComponent },
+  { path: 'teacher', component: TeacherComponent },
+  { path: 'student', component: StudentComponent }
 ];
 
 @NgModule({
