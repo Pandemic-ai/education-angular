@@ -861,8 +861,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/student/student.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+            <state relative-caret-position="168">
+              <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
               <folding>
                 <element signature="n#ol#0;n#div#0;n#section#0;n#!!top" />
               </folding>
@@ -1134,7 +1134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585402206091</updated>
       <workItem from="1585402207647" duration="5747000" />
-      <workItem from="1585408807401" duration="24083000" />
+      <workItem from="1585408807401" duration="24402000" />
     </task>
     <task id="LOCAL-00001" summary="Added student details">
       <created>1585434194040</created>
@@ -1147,10 +1147,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29830000" />
+    <option name="totallyTimeSpent" value="30149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1632096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1449,8 +1450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/student/student.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+        <state relative-caret-position="168">
+          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
           <folding>
             <element signature="n#ol#0;n#div#0;n#section#0;n#!!top" />
           </folding>
