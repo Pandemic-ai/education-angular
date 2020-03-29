@@ -5,18 +5,8 @@
                 <a routerLink="/" id="logo">Learn</a>
             </div>
             <div class="col-md-9 col-sm-9 col-xs-9">
-                <ul class="pull-right user_panel">
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, <strong>Student Name</strong> <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a routerLink="/"><i class=" icon-user"></i> Member area</a></li>\
-                            <li><a routerLink="/"><i class="icon-cog"></i> Settings</a></li>
-                            <li class="divider"></li>
-                            <li><a routerLink="/"><i class="icon-off"></i> Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
                 <ul id="top_nav" class="hidden-xs">
-                    <li><a routerLink="/">About</a></li>
+                    <li><a routerLink="/" >Log in</a></li>
                 </ul>
             </div>
         </div>
@@ -31,11 +21,10 @@
                     <li>
                         <a routerLink="/">Home</a>
                     </li>
-                    <li> <a routerLink="/student">Student</a></li>
-                    <li><a routerLink="/teacher">Teacher</a></li>
-                    <li> <a routerLink="/admin">Admin</a></li>
-                    <li><a routerLink="/">Exams</a></li>
-                    <li><a routerLink="/">Contacts</a></li>
+
+                    <li> <a routerLink="/">Schools</a></li>
+                    <li> <a routerLink="/student">Students</a></li>
+                    <li><a routerLink="/teacher">Teachers</a></li>
                 </ul>
 
                 <div class="col-md-3 pull-right hidden-sm hidden-xs">
@@ -52,5 +41,208 @@
         </div><!-- End row -->
     </div><!-- End container -->
 </nav>
+
+
+<section id="sub-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="subscribe">
+                <h1>Need more info?</h1>
+                <h2 class="hidden-xs">Please complete the form beside,<br> you will get an aswer shortly.</h2>
+            </div>
+            <div class="col-md-6 ">
+                <div id="subscribe_home">
+                    <div id="message-contact-home"></div>
+                    <form method="post" action="assets/contact_home.php" id="contactform_home">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control style_2" id="name_contact_home" name="name_contact_home" placeholder="Name">
+                                    <span class="input-icon"><i class="icon-user"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control style_2" id="lastname_contact_home" name="lastname_contact_home" placeholder="Last Name">
+                                    <span class="input-icon"><i class="icon-user"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" id="email_contact_home" name="email_contact_home" class="form-control style_2" placeholder="Email">
+                                    <span class="input-icon"><i class="icon-email"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" id="phone_contact_home" name="phone_contact_home" class="form-control style_2" placeholder="Phone number">
+                                    <span class="input-icon"><i class="icon-phone"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="styled-select">
+                                        <select class="form-control" name="course_home" id="course_home">
+                                            <option value="" selected>Preferred course</option>
+                                            <option value="Biology">Biology</option>
+                                            <option value="Litterature">Litterature</option>
+                                            <option value="Graduate courses">Graduate courses</option>
+                                            <option value="Undergraduate courses">Undergraduate courses</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="verify_contact_home" class=" form-control" placeholder="Are you human? 3 + 1 =">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group pull-right">
+                                    <input type="submit" value="Submit" class=" button_subscribe" id="submit-contact-home"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><!-- End row -->
+    </div>
+</section><!-- End sub-header -->
+
+
+<section id="main-features">
+    <div class="divider_top_black"></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-10 col-md-offset-1 text-center">
+                <h2>Why Join  Distance Learning</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, ius minim gubergren ad. <br>
+                    At mei sumo sonet audiam, ad mutat elitr platonem vix. Ne nisl idque fierent vix. Ferri clitaponderum ne.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class="icon-trophy"></i>
+                    <h3> Online classes</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class=" icon-ok-4"></i>
+                    <h3>Live sessions, attendance & evaluations </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class="icon-mic"></i>
+                    <h3>+500 Audio lessons</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class="icon-video"></i>
+                    <h3>+1.200 Video lessons</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+                    </p>
+                </div>
+            </div>
+        </div><!-- End row -->
+    </div><!-- End container -->
+</section><!-- End main-features -->
+
+<section id="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class='col-md-offset-2 col-md-8 text-center'>
+                <h2>What they say</h2>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-offset-2 col-md-8'>
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#quote-carousel" data-slide-to="1"></li>
+                        <li data-target="#quote-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="assets/img/teacher_4_small.jpg" alt="">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>
+                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!
+                                        </p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="assets/img/teacher_4_small.jpg" alt="">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.
+                                        </p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="assets/img/teacher_4_small.jpg" alt="">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                        </p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End testimonials -->
+<footer></footer>
 
 

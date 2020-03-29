@@ -13,6 +13,8 @@ import { NavAdminComponent } from "./nav-admin/nav-admin.component";
 import { HomeComponent } from './home/home.component';
 import { TeacherCourseDetailsComponent } from './course/teacher-course-details/teacher-course-details.component';
 import { StudentCourseDetailsComponent } from './course/student-course-details/student-course-details.component';
+import { ExamsComponent } from './course/exams/exams.component';
+import { SeminarComponent } from './course/seminar/seminar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { StudentCourseDetailsComponent } from './course/student-course-details/s
     NavAdminComponent,
     HomeComponent,
     TeacherCourseDetailsComponent,
-    StudentCourseDetailsComponent
+    StudentCourseDetailsComponent,
+    ExamsComponent,
+    SeminarComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

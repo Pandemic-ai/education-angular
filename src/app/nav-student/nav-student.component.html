@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-3">
-                <a routerLink="/" id="logo">Learn</a>
+                <a routerLink="/student" id="logo">Learn</a>
             </div>
             <div class="col-md-9 col-sm-9 col-xs-9">
                 <ul class="pull-right user_panel">
@@ -16,28 +16,12 @@
                     </li>
                 </ul>
                 <ul id="top_nav" class="hidden-xs">
-                    <li><a href="about_us.html">About</a></li>
+                    <li><a routerLink="/student" >About</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </header><!-- End header -->
-<!--<header>-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-md-3 col-sm-3 col-xs-3">-->
-<!--<a href="index.html" id="logo">Learn</a>-->
-<!--</div>-->
-<!--<div class="col-md-9 col-sm-9 col-xs-9">-->
-<!--<div class=" pull-right"><a href="login.html" class="button_top" id="login_top">Sign in</a> <a href="apply_2.html" class="button_top hidden-xs" id="apply">Apply now</a></div>-->
-<!--<ul id="top_nav" class="hidden-xs">-->
-<!--<li><a href="about_us.html">About</a></li>-->
-<!--</ul>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</header>&lt;!&ndash; End header &ndash;&gt;-->
-
 
 <nav>
     <div class="container">
@@ -46,21 +30,20 @@
                 <div id="mobnav-btn"></div>
                 <ul class="sf-menu">
                     <li class="normal_drop_down">
-                        <a routerLink="/">Home</a>
+                        <a routerLink="/" >Home</a>
                     </li>
                     <li class="normal_drop_down">
-                        <a href="#">Courses</a>
+                        <a routerLink="/student" >Courses</a>
                         <div class="mobnav-subarrow"></div>
                         <ul>
-                            <li><a href="courses_grid.html">Courses 1</a></li>
-                            <li><a href="courses_list.html">Courses 2</a></li>
-                            <li><a href="courses_list.html">Courses 3</a></li>
-                            <li><a href="courses_list.html">Courses 4</a></li>
-                            <li><a href="courses_list.html">Courses 5</a></li>
+                            <li><a routerLink="/student/course-details">Mathematics</a></li>
+                            <li><a routerLink="/student/course-details">Biology</a></li>
+                            <li><a routerLink="/student/course-details">Geography</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Exams</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a routerLink="/student">Classmates</a></li>
+                    <li><a routerLink="/student/exams">Exams</a></li>
+                    <li> <a routerLink="/student/announcements" >Announcements</a> </li>
                 </ul>
 
                 <div class="col-md-3 pull-right hidden-sm hidden-xs">
